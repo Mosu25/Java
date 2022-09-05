@@ -11,6 +11,10 @@ public class GetUserInput {
 		String name= sc.nextLine(); //Read user input
 		System.out.println("User Name: "+name); // output -- Display user input
 		
+		
+		System.out.println("Enter Age: " +sc.nextInt());
+		
+		
 		/*
 		 
 		nextBoolean()	Reads a boolean value from the user
@@ -25,7 +29,8 @@ public class GetUserInput {
 		*/
 		
 		
-		
+		// Note: If you enter wrong input (e.g. text in a numerical input), you will get an exception/error message (like "InputMismatchException").
+	
 	}
 
 }
